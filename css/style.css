@@ -1,0 +1,20 @@
+.first-section {
+    height: 1080px;
+    background-image: url(../img/section-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.wrapper1 h2 {
+    font-size: 96px;
+    margin-top: 120px;
+}
+.wrapper1 p {
+    width: 260px;
+    margin-top: 120px;
+}
+.yellow-button {
+    width: 150px;
+}
+.icon-height {
+    height: 80px;
+}

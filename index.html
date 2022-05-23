@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How to build web pages using Bootstrap">
+    <meta name="keywords" content="Bootstrap, Bootstrap for Beginners">
+    <meta name="author" content="Mariam Gugutishvili">
+    <!-- fb meta tags -->
+    <!-- <meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+    <meta property="og:type"               content="article" />
+    <meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" /> -->
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f31d2e197d.js" crossorigin="anonymous"></script>
+    <title>Lecture 11</title>
+</head>
+<body>
+    <header class="position-fixed w-100">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-xl">
+          <div></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100  d-flex justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold">Testiminials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white fw-bold">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="first-section ps-5 mb-5">
+      <div class="wrapper1 pt-5">
+        <a class="burger-icon" href="#"><img class="mb-5" src="img/burger-header.png" alt="burger"></a>
+        <h2 class="text-white">Party Time!</h2>
+        <p class="text-white fw-bold fs-4 mb-5">Buy any 2 burgers and get 1.5L Pepsi Free</p>
+        <button type="button" class="btn btn-warning mt-5 text-danger d-flex align-items-center justify-content-between rounded-pill yellow-button">Order Now <i class="fa-solid fa-arrow-right text-danger"></i></button>
+      </div>
+    </section>
+    <section class="second-section pt-5">
+      <h3 class="text-center mb-4">Want To Eat?</h3>
+      <p class="text-center mb-5">Try our Most Delicious food and it usually take minutes to deliver!</p>
+      <div class="w-75 ms-auto me-auto d-flex justify-content-between mb-5">
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/burger.svg" class="card-img-top icon-height" alt="burger-icon">
+          <div class="card-body">
+            <p class="card-text text-center">BURGER</p>
+          </div>
+        </div>
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/pizza.svg" class="card-img-top icon-height" alt="pizza-icon">
+          <div class="card-body">
+            <p class="card-text text-center">PIZZA</p>
+          </div>
+        </div>
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/fries.svg" class="card-img-top icon-height" alt="fries-icon">
+          <div class="card-body">
+            <p class="card-text text-center">FRIES</p>
+          </div>
+        </div>
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/ice-cream.svg" class="card-img-top icon-height" alt="cupcakes-icon">
+          <div class="card-body">
+            <p class="card-text text-center">CUPCAKES</p>
+          </div>
+        </div>
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/sandwich.svg" class="card-img-top icon-height" alt="sandwich-icon">
+          <div class="card-body">
+            <p class="card-text text-center">SANDWICH</p>
+          </div>
+        </div>
+        <div class="card pt-3 border border-white" style="width: 10rem;">
+          <img src="img/spaghetti.svg" class="card-img-top icon-height" alt="spaghetti-icon">
+          <div class="card-body">
+            <p class="card-text text-center">SPAGHETTI</p>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section class="third-section bg-warning d-flex justify-content-center align-items-center">
+      <div class="image-wrapper w-50">
+        <img class="w-100" src="img/pizza-guy.png" alt="pizza-guy">
+      </div>
+      <div class="right-block w-75">
+        <h3 class="text-white mt-5">We Guarantee</h3>
+        <h3 class="text-white">30 Minutes Delivery</h3>
+        <p class="text-white mt-5 w-50">If you’re having a meeting, working late at night and need an extra push.</p>
+        <p class="text-white">Let us know and we will be there</p>
+      </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
